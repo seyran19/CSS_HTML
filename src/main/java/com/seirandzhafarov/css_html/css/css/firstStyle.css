@@ -1,0 +1,40 @@
+/*По тегу*/
+/*h1 {*/
+/*    color: purple;*/
+/*}*/
+
+/*Для всех*/
+/** {*/
+/*    color: purple;*/
+/*}*/
+
+/*По классу*/
+/*.element {*/
+/*    color: purple;*/
+/*}*/
+
+/*!*По Id*!*/
+/*#title {*/
+/*    color: purple;*/
+/*}*/
+
+/*Для div у которого есть атрибут title*/
+div[title] {
+    color: purple;
+}
+/*То что снизу переопределяет то что с верху*/
+div[title] {
+    color: green;
+
+    /*Указываем цвет бэкграунда*/
+    background-color: bisque;
+
+    /*Чтобы фон был прозрачным*/
+    background-color: transparent;
+}
+
+/*Поставим фоновое изображение для*/
+.img {
+    background-image: url(../nigar/image/img2.jpg);
+    background-repeat: no-repeat;
+}

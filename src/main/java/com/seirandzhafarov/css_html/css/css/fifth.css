@@ -1,0 +1,26 @@
+/*Изучение блочной модели*/
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px blue solid;
+    /*Если мы не хотим чтобы наш pudding и border увеличивал размер объекта:*/
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: green;
+    margin: 10px;
+     /*10 сверху и снизу а 40 справа и слева*/
+    margin: 10px 40px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: purple;
+    margin: 10px;
+    margin: 10px 40px;
+}
+
+/*Отступы сверху и снизу схлопываются и не суммируются*/
+/*Отступы справа и слева суммируются*/

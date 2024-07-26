@@ -1,0 +1,38 @@
+/*Изучение работы со шрифтами*/
+.font {
+    font-family: Arial;
+    /*Одинаковая ширина символов*/
+    font-family: monospace;
+    /*устанавливаем размер шрифта*/
+    font-size: 15px;
+    /*Делаем шрифт жирным*/
+    font-weight: bold;
+    /*100 - самый тонкий шрифт, 900 самый толстый шрифт*/
+    font-weight: 100;
+    /*Интервал между строками*/
+    line-height: 30px;
+    /*Текст становится по центру*/
+    text-align: center;
+    /*По ширине*/
+    text-align: justify;
+
+    /*Появляется подчеркивание снизу*/
+    text-decoration: underline;
+    /*сверху*/
+    text-decoration: overline;
+    /*перечеркнутый текст */
+    text-decoration: line-through;
+    /*Убирает*/
+    text-decoration: none;
+    /*Все буквы заглавные*/
+    text-transform: uppercase;
+    /*маленькими */
+    text-transform: lowercase;
+    /*каждое словов начинается с большой буквы*/
+    text-transform: capitalize;
+}
+
+ul {
+    /*Тип списка*/
+    list-style: none;
+}

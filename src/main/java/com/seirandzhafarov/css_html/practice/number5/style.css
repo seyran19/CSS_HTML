@@ -1,0 +1,33 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.inner_box {
+    text-align: center;
+}
+
+h1 {
+    max-width: 1000px;
+    margin: 80px auto 30px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+p {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    line-height: 30px;
+}
+
+i.fa {
+    margin-bottom: 60px;
+    color: darkturquoise;
+    font-size: 50px;
+    margin: 0 25px;
+}

@@ -1,0 +1,9 @@
+/*Посмотри как можно изменять размеры для любого элемента*/
+
+.logo {
+    background-image: url(../nigar/image/img2.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}

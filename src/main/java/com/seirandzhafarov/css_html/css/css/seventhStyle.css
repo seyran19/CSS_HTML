@@ -1,0 +1,77 @@
+/*Основы CSS Flexbox*/
+/*По умолчанию div имеет значение display:block*/
+* {
+    box-sizing: border-box;
+}
+
+/*Если мы хоти чтобы у нас 3 div - a встали друг после друга то тогда у них должен*/
+/*быть родителдь у которого display: flex; */
+ div.parent {
+    display: flex;
+     height: 250px;
+     border: 1px red solid;
+
+}
+
+ /*Елементы сейчас идут друг за другом вряд, и теперь как только элемент не будет*/
+ /*влазить он будет переноситься*/
+div.parent {
+    flex-wrap: wrap;
+}
+
+
+/*Элементы опять пойдут в колонку друг под другом разница в том что теперь мы можем выравнивать*/
+/*по вертикали и по горизонтали*/
+/*div.parent {*/
+/*    flex-direction: column;*/
+/*}*/
+
+
+/*Переместили 3 элемент в самый верх,order 1 - самый низ*/
+div.parent div:nth-child(3){
+    color: bisque;
+    order: -1;
+}
+
+
+/*Выровняли по центру*/
+div.parent {
+    justify-content: center;
+}
+
+/*Раздвинули элементы по краям родительского*/
+div.parent {
+    justify-content: space-between;
+}
+
+/*Оставит отступы между элементами и в начале и в конце*/
+div.parent {
+    justify-content: space-around;
+}
+
+/*Выставляются по конечной части*/
+div.parent {
+    justify-content: flex-end;
+}
+
+/*Выставляются по начальной части*/
+div.parent {
+    justify-content: flex-start;
+}
+
+
+/*Выравниваем по вертикали*/
+div.parent {
+    align-items: flex-end;
+}
+
+
+/*Настроим вертикальное выравнивание для отдельного элемента*/
+div.parent div:nth-child(4) {
+    align-self: center;
+}
+
+/*Вертикальное выравнивание через align-comtent*/
+/*div.parent{*/
+/*    align-content: space-between;*/
+/*}*/
